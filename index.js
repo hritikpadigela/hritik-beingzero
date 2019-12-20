@@ -9,7 +9,7 @@ app.get('/login', (req, res) => res.send('LOGIN'))      //They are called as Rou
 app.get('/register', (req, res) => res.send('REGISTER'))
 app.get('/data', (req, res) => res.json(student))
 
-var student = {name: "Hritikpadigela", college: "VNR VJIET", regno: "17071A1242"}
+var student = {name: "Supraja", college: "VNR VJIET", regno: "17071A1242"}
 
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
