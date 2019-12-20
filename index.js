@@ -1,6 +1,6 @@
 const express = require('express') //importing
 const app = express() //creating an object of express
-const port = 3000 //creating the port number
+const port = process.env.PORT || 3000 //creating the port number
 
 app.use(express.static('frontend'))   //This line tells express to serve js or css files from frontend folder
 
